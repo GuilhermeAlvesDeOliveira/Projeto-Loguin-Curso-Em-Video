@@ -9,7 +9,7 @@ Lilás #5f2c82
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px;
+    
     margin: 0px;
     box-sizing: border-box;
 }
@@ -65,6 +65,28 @@ div#formulario > p {
 
 }
 
+div.campo > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+
+    width: calc(100% - 47px);
+    transform: translate(3px, -12px);
+
+    
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+
+}
+
+div.campo > i {
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
@@ -73,7 +95,7 @@ form > input[type=submit] {
     background-color: #49a09d;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 form > input[type=submit]:hover {
@@ -102,6 +124,7 @@ form > a.botao:hover{
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     width: 100%;
     height: 40px;
     border-radius: 5px;

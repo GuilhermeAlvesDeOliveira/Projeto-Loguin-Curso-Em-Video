@@ -8,6 +8,7 @@
 
     section#loguin {
         width: 80vw;
+        height: 275px;
 
     }
 
@@ -32,6 +33,7 @@
 
     section#loguin {
         width:  950px;
+        height: 350px;
     }
     
     section#loguin > div#imagem {
